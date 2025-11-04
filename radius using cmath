@@ -1,0 +1,11 @@
+int main() {
+   cout << "what is the radius: ";
+   double radius;
+   cin >> radius;
+
+
+   double result = pow( radius, 2) * M_PI;
+   cout << result;
+
+
+   return 0;
